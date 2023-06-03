@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    background-color: #FFFFFF;
+}
+/* section-1 */
+.image{
+    height: 55px;
+    width: 85px;
+}
+#navItem1{
+    color: #323f4b;
+    font-family: roboto;
+}
+#navItem2{
+    color: #323f4b;
+    font-family: roboto;
+}
+#navItem3{
+    color: #323f4b;
+    font-family: roboto;
+}
+#navItem4{
+    color: #323f4b;
+    font-family: roboto;
+}
+#navItem5{
+    color: #323f4b;
+    font-family: roboto;
+}
+hr.new{
+    border: 1px rgb(0, 0, 0) solid;
+}
+
+/* Section-2 */
+.section2{
+    background-color: #FFFFFF;
+}
+.section2-img {
+    width: 270px;
+    height: 350px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section2-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+.section2-description {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+.custom-button {
+    width: 170px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1492E6;
+    border-width: 0;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+/* Section-3 */
+.section3-section{
+    background-color: #F8FAFC;
+    margin: 40px 100px;
+}
+.section3-head{
+    font-size: 24px;
+    color: #000000;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section3-card{
+    background-color: #FAFAFA;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    border-color: #f0e4da;
+}
+.section3-card-title{
+    color: #000000;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 700;
+}
+.section3-card-para{
+    color: #000000;
+    font-size: 13px;
+    font-family: roboto;
+}
+
+/* Section-4 */
+.section4-section{
+    background-color: #ffffff;
+    margin: 40px 100px;
+}
+.section4-head{
+    font-size: 24px;
+    color: #000000;
+    font-family: roboto;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section4-card-image{
+    width: 60%;
+    margin-bottom: 15px;
+}
+.section4-card-title{
+    color: #000000;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 700;
+}
+.section4-card-para{
+    color: #000000;
+    font-size: 13px;
+    font-family: roboto;
+}
+
+
+/* Section-5 */
+.section5-section{
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 100px;
+}
+.section5-head{
+    font-size: 18px;
+    font-family: roboto;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.description{
+    font-size: 12px;
+    font-family: roboto;
+    padding-top: 10px;
+}
+.small-sec{
+    align-items: center;
+}
+.sec5-img{
+    height: 60px;
+    margin-right: 10px;
+}
+.extra{
+    visibility: hidden;
+}
+.custom-button2{
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #1492E6;
+    font-size: 13px;
+    border-width: 0;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    
+}
+
+/* Section-6 */
+.section6-head{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+}
+.star-image{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.tour-item{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.15), 0 6px 20px 0 rgb(0, 0, 0, 0.15);
+}
+.home-testimonial{
+    background-color: #F8FAFC;
+    height: 380px;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.15), 0 6px 20px 0 rgb(0, 0, 0, 0.15);
+}
+.home-testimonial-bottom{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px;
+}
+.home-testimonial h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-testimonial h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+.testimonial-inner{
+    position: relative;
+    top: -174px;
+}
+.testimonial-pos{
+    position: relative;
+    top: 24px;
+    align-items: center;
+}
+.testimonial-inner .tour-desc{
+    border-radius: 5px;
+    padding: 40px
+}
+.color-grey-3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.testimonial-inner img.tm-people{
+    width: 60px;height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+.names{
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+.link-name{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.link-position{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+/* Section-7 */
+.section7-section{
+    background-color: #ffffff;
+    margin-top: 150px;
+}
+.section7-heading{
+    font-size: 28px;
+    font-family: roboto;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 50px 100px;
+}
+.section7-content{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.section7-container{
+    align-items: center;
+    text-align: center;
+}
+.section7-image{
+    height: 50px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Section-8 */
+.section8-section{
+    background-color: #000000;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section8-content{
+    color: #ffffff;
+    bottom: 0px;
+}
